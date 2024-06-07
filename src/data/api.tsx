@@ -1,14 +1,11 @@
 import axios from 'axios';
-import { SubmitFunction } from '../Props/InputProps';
-import { useState } from 'react';
-import { urlchangue } from '../../url';
-import { ErrorMessage } from '@hookform/error-message';
 
-export const API_URL = urlchangue;
+
+export const API_URL = 'https://apsapibackend.azurewebsites.net/api/';
 localStorage.setItem('id','0')
 export const secretKey = '123'
 
-export const onSubmit = async (data, to, pad, navigate, pk) => {
+export const onSubmit = async (data:any, to:any, pad:any, navigate:any, pk:any) => {
   try {
     if (pk) {
       data[pk] = localStorage.getItem('id');
