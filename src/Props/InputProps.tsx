@@ -161,7 +161,7 @@ export interface FamilyMember {
 
 export interface AccordionProps {
   title: string;
-  data: DataProps;
+  data: any;
 }
 
 
