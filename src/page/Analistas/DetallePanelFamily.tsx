@@ -9,11 +9,8 @@ import { Accordion } from '../../components/infoComponets/Accordion';
 import { AccordionDos } from '../../components/infoComponets/AccordionDos';
 import { AccordionTres } from '../../components/infoComponets/AccordionTres';
 
-export interface TableMemberprop {
-  data : FamilyMember[];
-}
 
-export const DetallePanelFamily:React.FC<TableMemberprop> = () => {
+export const DetallePanelFamily:React.FC = () => {
   const { id } = useParams<{ id: string }>();
   const [family, setFamily] = useState<Family | null>(null);
   const [familyContext, setFamilyContext] = useState<FamilyContext | null>(null);

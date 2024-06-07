@@ -1,7 +1,7 @@
 export interface ButtonProps {
     msg : string;
     msgTwo ?:string;
-    prev?:string
+    prev?:any
     next?:string;
     fun ?: () => void; 
     funTwo ?: () =>void;
