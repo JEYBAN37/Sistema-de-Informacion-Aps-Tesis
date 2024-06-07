@@ -17,7 +17,7 @@ export function UserProvider(props:any) {
         return storedUser ? JSON.parse(storedUser) : null;
     });
 
-    const activeUser = (userData:unknown) => {
+    const activeUser = (userData:any[]) => {
         setUser(userData);
         localStorage.setItem("user", JSON.stringify(userData));
     };
