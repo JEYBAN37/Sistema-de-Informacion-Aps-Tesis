@@ -1,3 +1,31 @@
+# Sistema de Informacion Aps V2.0 Tesis De Grado
+
+Este proyecto es un sistema de información diseñado para la caracterización y gestión de datos relacionados con la atención primaria en salud. El sistema proporciona una plataforma eficiente y moderna para la recopilación, análisis y visualización de datos de salud, facilitando la toma de decisiones y la mejora de los servicios de atención primaria.
+
+
+# Tecnologías Utilizadas
+
+Frontend: React.js
+
+Backend: Django REST Framework
+
+Base de Datos: PostgreSQL
+
+
+# Características Principales
+
+Interfaz de Usuario Intuitiva: Utilizando React.js, la interfaz es fácil de usar y está diseñada para mejorar la experiencia del usuario.
+
+API RESTful: Desarrollada con Django REST Framework, la API proporciona endpoints robustos y seguros para la gestión de datos.
+
+Autenticación y Autorización: Implementación de mecanismos de seguridad para proteger los datos y garantizar el acceso controlado.
+
+Gestión de Datos de Salud: Funcionalidades para la entrada, actualización y visualización de datos de pacientes y servicios de salud.
+
+Reportes y Análisis: Generación de reportes y análisis de datos para apoyar la toma de decisiones.
+
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
