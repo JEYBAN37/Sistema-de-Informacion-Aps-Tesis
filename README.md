@@ -2,6 +2,7 @@
 
 Este proyecto es un sistema de información diseñado para la caracterización y gestión de datos relacionados con la atención primaria en salud. El sistema proporciona una plataforma eficiente y moderna para la recopilación, análisis y visualización de datos de salud, facilitando la toma de decisiones y la mejora de los servicios de atención primaria.
 
+![Logo de mi proyecto](present.png)
 
 # Tecnologías Utilizadas
 
@@ -24,7 +25,9 @@ Gestión de Datos de Salud: Funcionalidades para la entrada, actualización y vi
 
 Reportes y Análisis: Generación de reportes y análisis de datos para apoyar la toma de decisiones.
 
+![Logo de mi proyecto](phoneOne.png)
 
+Este proyecto fue colaborativo realizado por Esteban y Daniel Villota @Daniel Villota
 
 # React + TypeScript + Vite
 
